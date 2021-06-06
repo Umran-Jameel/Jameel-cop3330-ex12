@@ -18,7 +18,7 @@ public class Exercise12 {
         String year = in.nextLine();
         double years = Double.parseDouble(year);
 
-        System.out.printf("After %.0f years at %.2f%%, the investment will be worth %.2f.", years, rate * 100, (principal * (1 + (rate * years))));
+        System.out.printf("After %.0f years at %.2f%%, the investment will be worth $%.2f.", years, rate * 100, (principal * (1 + (rate * years))));
 
     }
 }
